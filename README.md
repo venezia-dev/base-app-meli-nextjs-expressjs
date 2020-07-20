@@ -11,7 +11,7 @@ Tambien esta configurado para usar Redux.
 
 ## Development server
 
-Editar archivo .env:
+Crear archivo .env:
 - PORT=3000
 - CLIENT_ID= DATOS CREANDO APP EN DEVELOPER MELI (APP ID)
 - CLIENT_SECRET= DATOS CREANDO APP EN DEVELOPER MELI (SECRET KEY)
