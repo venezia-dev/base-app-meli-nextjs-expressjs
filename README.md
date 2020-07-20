@@ -7,20 +7,20 @@ La app esta codeada para modificar maximo 20 publicaciones a la vez.
 
 La idea del repositorio es una base para poder seguir codeando y agregar mas funciones con la documentacion de Meli [DOC](https://developers.mercadolibre.com.ar/es_ar/nodejs-es)
 
+Tambien esta configurado para usar Redux.
+
 ## Development server
 
 Editar archivo .env:
-PORT=3000
-CLIENT_ID= DATOS CREANDO APP EN DEVELOPER MELI (APP ID)
-CLIENT_SECRET= DATOS CREANDO APP EN DEVELOPER MELI (SECRET KEY)
-REDIRECT_URI=http://localhost:3000
-SYS_USER= (USER PARA AUTH PARA PODER LOGUEARSE)
-SYS_PWD= (PASSWORD PARA AUTH PARA PODER LOGUEARSE)
-
-
-- NPM INSTALL
+- PORT=3000
+- CLIENT_ID= DATOS CREANDO APP EN DEVELOPER MELI (APP ID)
+- CLIENT_SECRET= DATOS CREANDO APP EN DEVELOPER MELI (SECRET KEY)
+- REDIRECT_URI=http://localhost:3000
+- SYS_USER= (USER PARA AUTH PARA PODER LOGUEARSE)
+- SYS_PWD= (PASSWORD PARA AUTH PARA PODER LOGUEARSE)
 
 ## ENTORNO DEV
+- NPM INSTALL
 - NPM RUN DEV
 
 ## ENTORNO PRODUC
@@ -34,10 +34,10 @@ si estas en windows modificar el package.json de start por:
 
 Crear app en heroku, y hacer deploy, y editar el archivo middlewares/tokens.js
 En la linea 22 cambiar por:
-const redirect_uri = REDIRECT_URI + req.baseUrl + 'api/auth';
+- const redirect_uri = REDIRECT_URI + req.baseUrl + 'api/auth';
 
 para volver a trabajar en forma local, volver como estaba:
-const redirect_uri = REDIRECT_URI + req.baseUrl + req.path;
+- 	const redirect_uri = REDIRECT_URI + req.baseUrl + req.path;
 
 Agregar Variables de entorno o Config Vars en settings de heroku:
 
@@ -65,4 +65,4 @@ En las x el nombre q te da heroku, de la url.
 Para Notificaciones callbacks URL no hace falta.
 
 ## Demo (Video)
-[![Demo CountPages alpha](https://j.gifs.com/0YpqyX.gif)](https://www.youtube.com/watch?v=-MdFxTf0IIk)
+[![Demo CountPages alpha](https://j.gifs.com/5Qp4nx.gif)](https://www.youtube.com/watch?v=-MdFxTf0IIk)
