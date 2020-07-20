@@ -1,0 +1,30 @@
+.product {
+    cursor: pointer;
+  }
+  
+.product:hover {
+    color: rgb(219, 143, 143);
+    background-color: #5e8884;
+}
+
+.Modal {
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  right: 20%;
+  bottom: 20%;
+  max-height: 60%;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+  .Modal {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    right: 5%;
+    bottom: 5%;
+    height: 100%;
+  }
+}

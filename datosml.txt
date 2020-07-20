@@ -1,0 +1,97 @@
+
+accepts_mercadopago: true
+attributes: Array(5)
+0: {id: "BRAND", name: "Marca", value_id: null, value_name: "MGN", value_struct: null, …}
+1: {id: "CARTRIDGES_NUMBER", name: "Cantidad de cartuchos", value_id: null, value_name: "1", value_struct: null, …}
+2: {id: "ITEM_CONDITION", name: "Condición del ítem", value_id: "2230284", value_name: "Nuevo", value_struct: null, …}
+3: {id: "MODEL", name: "Modelo", value_id: null, value_name: "SP310", value_struct: null, …}
+4: {id: "TONER_TYPE", name: "Tipo de tóner", value_id: "3003488", value_name: "Alternativo", value_struct: null, …}
+length: 5
+__proto__: Array(0)
+automatic_relist: false
+available_quantity: 21
+base_price: 7544
+buying_mode: "buy_it_now"
+catalog_listing: false
+catalog_product_id: null
+category_id: "MLA3560"
+condition: "new"
+coverage_areas: []
+currency_id: "ARS"
+date_created: "2020-06-23T17:18:53.000Z"
+deal_ids: []
+descriptions: [{…}]
+differential_pricing: null
+domain_id: "MLA-TONERS"
+end_time: "2040-06-18T04:00:00.000Z"
+expiration_time: "2020-09-19T16:49:44.324Z"
+geolocation: {latitude: -34.6235, longitude: -58.506748}
+health: 0.66
+historical_start_time: "2020-06-23T17:18:53.000Z"
+id: "MLA863958198"
+initial_quantity: 21
+international_delivery_mode: "none"
+inventory_id: null
+item_relations: []
+last_updated: "2020-07-01T16:49:44.358Z"
+listing_source: ""
+listing_type_id: "gold_special"
+location: {}
+non_mercado_pago_payment_methods: []
+official_store_id: null
+original_price: null
+parent_item_id: null
+permalink: "https://articulo.mercadolibre.com.ar/MLA-863958198-toner-sp310-alternativo-_JM"
+pictures: (2) [{…}, {…}]
+price: 7544
+sale_terms: [{…}]
+secure_thumbnail: "https://mla-s1-p.mlstatic.com/763772-MLA42318513963_062020-I.jpg"
+seller_address: {comment: "Entre: Cervantes", address_line: "Miranda 5095", zip_code: "1407", city: {…}, state: {…}, …}
+seller_contact: null
+seller_custom_field: null
+seller_id: 277138747
+shipping: {mode: "me2", free_methods: Array(1), tags: Array(1), dimensions: null, local_pick_up: false, …}
+site_id: "MLA"
+sold_quantity: 0
+start_time: "2020-06-23T17:18:53.000Z"
+status: "active"
+stop_time: "2040-06-18T04:00:00.000Z"
+sub_status: []
+subtitle: null
+tags: (3) ["good_quality_picture", "immediate_payment", "cart_eligible"]
+thumbnail: "http://mla-s1-p.mlstatic.com/763772-MLA42318513963_062020-I.jpg"
+title: "Toner Sp310 Alternativo"
+total_listing_fee: null
+variations: Array(2)
+0:
+attribute_combinations: [{…}]
+available_quantity: 10
+catalog_product_id: null
+id: 58597067490
+inventory_id: null
+item_relations: []
+picture_ids: ["763772-MLA42318513963_062020"]
+price: 7544
+sale_terms: []
+seller_custom_field: null
+sold_quantity: 0
+__proto__: Object
+1:
+attribute_combinations: [{…}]
+available_quantity: 11
+catalog_product_id: null
+id: 58968068564
+inventory_id: null
+item_relations: []
+picture_ids: ["705493-MLA42403652043_062020"]
+price: 7544
+sale_terms: []
+seller_custom_field: null
+sold_quantity: 0
+__proto__: Object
+length: 2
+__proto__: Array(0)
+video_id: null
+warnings: []
+warranty: "Sin garantía"
+__proto__: Object

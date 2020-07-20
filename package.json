@@ -1,0 +1,43 @@
+{
+	"name": "react-next-starter",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "cross-env NODE_ENV=development nodemon --inspect server/ssr-server.js",
+		"build": "next build",
+		"start": "NODE_ENV=production node server/ssr-server.js -p $PORT"
+	},
+	"dependencies": {
+		"@fortawesome/fontawesome-free": "^5.13.1",
+		"@material-ui/styles": "^4.9.0",
+		"axios": "^0.19.2",
+		"body-parser": "^1.19.0",
+		"bootswatch": "^4.5.0",
+		"cookie-session": "^1.4.0",
+		"cors": "^2.8.5",
+		"cross-env": "^7.0.2",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"helmet": "^3.23.2",
+		"lodash": "^4.17.15",
+		"mercadolibre": "0.0.13",
+		"multer": "^1.4.2",
+		"next": "9.3.3",
+		"next-redux-wrapper": "^5.0.0",
+		"react": "16.13.0",
+		"react-dom": "16.13.0",
+		"react-hook-form": "^5.7.2",
+		"react-modal": "^3.11.2",
+		"react-redux": "^7.2.0",
+		"react-toastify": "^6.0.6",
+		"redux": "^4.0.5",
+		"redux-thunk": "^2.3.0",
+		"styled-components": "^5.0.1"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.2",
+		"redux-logger": "^3.0.6",
+		"dotenv": "^8.2.0",
+		"eslint-plugin-react": "^7.19.0"
+	}
+}
